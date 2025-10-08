@@ -367,7 +367,7 @@ namespace SQLQueryBuilder
                         sql.Append(" ").Append(string.Join(" ", _joins));
 
                     if (_whereConditions.Count > 0)
-                        sql.Append(" WHERE ").Append(string.Join(" AND ", _whereConditions));
+                        sql.Append(" WHERE ").Append(string.Join(" ", _whereConditions));
 
                     if (_groupByColumns.Count > 0)
                         sql.Append(" GROUP BY ").Append(string.Join(", ", _groupByColumns));
