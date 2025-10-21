@@ -1,8 +1,8 @@
 ﻿using System;
-using System.Data;
 using System.Data.SqlClient;
+using System.Data;
 
-namespace SQLQueryBuilder
+namespace CSharpSQLQueryBuilder
 {
     public class Database
     {
@@ -10,7 +10,7 @@ namespace SQLQueryBuilder
 
         public Database()
         {
-            string localDBFilePath = @"E:\RON\Desktop\C# APP\SQLQueryBuilder\SQLQueryBuilder\sqlquerybuilder.mdf";
+            string localDBFilePath = @"";//put here the link to your mdf file
             _connectionString = $@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename={localDBFilePath};Integrated Security=True;";
 
         }
@@ -35,19 +35,19 @@ namespace SQLQueryBuilder
         }
 
         // --- ExecuteNonQuery ---
-        public int ExecuteNonQuery(SqlQueryBuilder builder)
+        public int ExecuteNonQuery(SQLQueryBuilder builder)
         {
             return Execute<int>(delegate (SqlCommand cmd) { return cmd.ExecuteNonQuery(); }, builder);
         }
 
         // --- ExecuteScalar ---
-        public object ExecuteScalar(SqlQueryBuilder builder)
+        public object ExecuteScalar(SQLQueryBuilder builder)
         {
             return Execute<object>(delegate (SqlCommand cmd) { return cmd.ExecuteScalar(); }, builder);
         }
 
         // --- ExecuteReader returning DataTable ---
-        public DataTable ExecuteReader(SqlQueryBuilder builder)
+        public DataTable ExecuteReader(SQLQueryBuilder builder)
         {
             return Execute<DataTable>(delegate (SqlCommand cmd)
             {
@@ -61,7 +61,7 @@ namespace SQLQueryBuilder
         }
 
         // --- Core executor that handles connection and parameters ---
-        private T Execute<T>(Func<SqlCommand, T> executor, SqlQueryBuilder builder)
+        private T Execute<T>(Func<SqlCommand, T> executor, SQLQueryBuilder builder)
         {
             string sql = builder.BuildQuery();
             SqlParameter[] parameters = builder.GetParameters();
