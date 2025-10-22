@@ -1,0 +1,12 @@
+E:\RON\Desktop\C# APP\FINALPROJ\SQLQueryBuilder\obj\Debug\net8.0\SQLQueryBuilder.GeneratedMSBuildEditorConfig.editorconfig
+E:\RON\Desktop\C# APP\FINALPROJ\SQLQueryBuilder\obj\Debug\net8.0\SQLQueryBuilder.AssemblyInfoInputs.cache
+E:\RON\Desktop\C# APP\FINALPROJ\SQLQueryBuilder\obj\Debug\net8.0\SQLQueryBuilder.AssemblyInfo.cs
+E:\RON\Desktop\C# APP\FINALPROJ\SQLQueryBuilder\obj\Debug\net8.0\SQLQueryBuilder.csproj.CoreCompileInputs.cache
+E:\RON\Desktop\C# APP\FINALPROJ\SQLQueryBuilder\bin\Debug\net8.0\SQLQueryBuilder.deps.json
+E:\RON\Desktop\C# APP\FINALPROJ\SQLQueryBuilder\bin\Debug\net8.0\SQLQueryBuilder.dll
+E:\RON\Desktop\C# APP\FINALPROJ\SQLQueryBuilder\bin\Debug\net8.0\SQLQueryBuilder.pdb
+E:\RON\Desktop\C# APP\FINALPROJ\SQLQueryBuilder\obj\Debug\net8.0\SQLQueryBuilder.csproj.AssemblyReference.cache
+E:\RON\Desktop\C# APP\FINALPROJ\SQLQueryBuilder\obj\Debug\net8.0\SQLQueryBuilder.dll
+E:\RON\Desktop\C# APP\FINALPROJ\SQLQueryBuilder\obj\Debug\net8.0\refint\SQLQueryBuilder.dll
+E:\RON\Desktop\C# APP\FINALPROJ\SQLQueryBuilder\obj\Debug\net8.0\SQLQueryBuilder.pdb
+E:\RON\Desktop\C# APP\FINALPROJ\SQLQueryBuilder\obj\Debug\net8.0\ref\SQLQueryBuilder.dll

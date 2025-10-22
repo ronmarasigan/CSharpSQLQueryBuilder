@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\RON\\Desktop\\C# APP\\FINALPROJ\\SQLQueryBuilder\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{48CCAF26-B408-4703-92C9-71C8B859869B}|SQLQueryBuilder.csproj|e:\\ron\\desktop\\c# app\\finalproj\\sqlquerybuilder\\sqlquerybuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48CCAF26-B408-4703-92C9-71C8B859869B}|SQLQueryBuilder.csproj|solutionrelative:sqlquerybuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48CCAF26-B408-4703-92C9-71C8B859869B}|SQLQueryBuilder.csproj|e:\\ron\\desktop\\c# app\\finalproj\\sqlquerybuilder\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48CCAF26-B408-4703-92C9-71C8B859869B}|SQLQueryBuilder.csproj|solutionrelative:database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Database.cs",
+              "DocumentMoniker": "E:\\RON\\Desktop\\C# APP\\FINALPROJ\\SQLQueryBuilder\\Database.cs",
+              "RelativeDocumentMoniker": "Database.cs",
+              "ToolTip": "E:\\RON\\Desktop\\C# APP\\FINALPROJ\\SQLQueryBuilder\\Database.cs",
+              "RelativeToolTip": "Database.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA2wBcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T05:48:06.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SqlQueryBuilder.cs",
+              "DocumentMoniker": "E:\\RON\\Desktop\\C# APP\\FINALPROJ\\SQLQueryBuilder\\SqlQueryBuilder.cs",
+              "RelativeDocumentMoniker": "SqlQueryBuilder.cs",
+              "ToolTip": "E:\\RON\\Desktop\\C# APP\\FINALPROJ\\SQLQueryBuilder\\SqlQueryBuilder.cs",
+              "RelativeToolTip": "SqlQueryBuilder.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAlwIoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T05:40:52.845Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
