@@ -10,7 +10,7 @@ namespace SQLQueryBuilder
 
         public Database()
         {
-            string localDBFilePath = @"E:\RON\Desktop\C# APP\FINALPROJ\SimpleCRUD\myDB.mdf";//path to your mdf file
+            string localDBFilePath = @"";//path to your mdf file
             _connectionString = $@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename={localDBFilePath};Integrated Security=True;";
 
         }
